@@ -1,0 +1,6 @@
+﻿  test.cpp
+c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\test\test.cpp(3): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating code
+  All 70 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  test.vcxproj -> C:\Users\Raynor\Documents\GitHub\openCV Studying\OpenCV-Study\openCV\x64\Release\test.exe

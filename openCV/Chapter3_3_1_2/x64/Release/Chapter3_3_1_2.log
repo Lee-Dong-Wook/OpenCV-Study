@@ -1,0 +1,6 @@
+﻿  Chapter3_3_1_2.cpp
+c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\chapter3_3_1_2\chapter3_3_1_2.cpp(7): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating code
+  All 29 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Chapter3_3_1_2.vcxproj -> C:\Users\Raynor\Documents\GitHub\openCV Studying\OpenCV-Study\openCV\x64\Release\Chapter3_3_1_2.exe

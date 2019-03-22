@@ -1,5 +1,5 @@
 ﻿  Source.cpp
-c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\opencv\source.cpp(3): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\opencv\source.cpp(5): warning C4326: return type of 'main' should be 'int' instead of 'void'
   Generating code
   0 of 71 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation

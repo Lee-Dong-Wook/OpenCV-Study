@@ -6,7 +6,7 @@ using namespace std;
 
 
 //void CropMax(Mat matx, int start_point1, int start_point2, int end_point1, int endPoint2, int setNumber)
-void CropMatx(Mat m, int s_pt1, int s_pt2 ,int e_pt1, int e_pt2 , int setNumber) {
+void CropMatx(Mat m, int setNumber, int s_pt1, int s_pt2 ,int e_pt1, int e_pt2 ) {
 
 	Mat	  matx; 
 	Range start(s_pt1, s_pt2);
@@ -24,9 +24,9 @@ int main() {
 
 	Mat mat(10, 15, CV_32F, Scalar(100));
 
-	CropMatx(mat, 1, 5, 3, 8, 200);
-	CropMatx(mat, 5, 9, 8, 14, 300);
-	CropMatx(mat, 3, 7, 5, 10, 555);
+	CropMatx(mat, 200, 1, 5, 3, 8);
+	CropMatx(mat, 300, 5, 9, 8, 14);
+	CropMatx(mat, 555, 3, 7, 5, 10);
 	
 	cout << mat << endl; 
 	return 0;

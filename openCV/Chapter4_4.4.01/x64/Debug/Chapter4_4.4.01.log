@@ -1,0 +1,2 @@
+﻿  Chapter4_4.4.01.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(720,5): error MSB6003: The specified task executable "link.exe" could not be run. Could not find a part of the path 'C:\Users\Raynor\Documents\GitHub\openCV_Studying\OpenCV-Study\openCV\Chapter4_4.4.03\x64\Debug\Chapter4_4.4.01.tlog\link.command.1.tlog'.

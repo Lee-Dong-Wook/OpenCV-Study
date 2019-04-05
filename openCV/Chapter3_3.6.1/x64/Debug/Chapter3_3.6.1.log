@@ -1,14 +1,14 @@
 ﻿  Chapter3_3.6.1.cpp
-c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(23): warning C4305: '=': truncation from 'int' to '_Tp'
+c:\users\raynor\documents\github\opencv_studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(23): warning C4305: '=': truncation from 'int' to '_Tp'
           with
           [
               _Tp=uchar
           ]
-c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(23): warning C4309: '=': truncation of constant value
-c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(28): warning C4305: '=': truncation from 'int' to '_Tp'
+c:\users\raynor\documents\github\opencv_studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(23): warning C4309: '=': truncation of constant value
+c:\users\raynor\documents\github\opencv_studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(28): warning C4305: '=': truncation from 'int' to '_Tp'
           with
           [
               _Tp=ushort
           ]
-c:\users\raynor\documents\github\opencv studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(28): warning C4309: '=': truncation of constant value
-  Chapter3_3.6.1.vcxproj -> C:\Users\Raynor\Documents\GitHub\openCV Studying\OpenCV-Study\openCV\x64\Debug\Chapter3_3.6.1.exe
+c:\users\raynor\documents\github\opencv_studying\opencv-study\opencv\chapter3_3.6.1\chapter3_3.6.1.cpp(28): warning C4309: '=': truncation of constant value
+  Chapter3_3.6.1.vcxproj -> C:\Users\Raynor\Documents\GitHub\openCV_Studying\OpenCV-Study\openCV\x64\Debug\Chapter3_3.6.1.exe

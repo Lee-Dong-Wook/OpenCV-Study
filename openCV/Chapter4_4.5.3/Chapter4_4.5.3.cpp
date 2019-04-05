@@ -32,14 +32,14 @@ int main() {
 	cout << "fps : " << fps				<< endl;
 
 	VideoWriter writer;												//동영상 파일 저장 객체 
-	writer.open("C:/Users/Raynor/Desktop/openCVEXImage/Ex_video3.avi",fourcc,fps,size); //파일 개방 및 설정 
+	writer.open("C:/Users/Raynor/Desktop/openCVEXImage/Ex_video4.avi",fourcc,fps,size); //파일 개방 및 설정 
 	CV_Assert(writer.isOpened());
 	
 	while (true) {
 		Mat frame;
 		capture >> frame;											//카메라 영상받기 
-		//writer << frame;											//프레임을 동영상으로 저장 
-		writer.write(frame);
+		writer << frame;											//프레임을 동영상으로 저장 
+		//writer.write(frame);
 
 		imshow("카메라 영상보기", frame);
 		if (waitKey(delay) > 0) break;

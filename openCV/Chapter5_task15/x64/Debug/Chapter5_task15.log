@@ -1,0 +1,39 @@
+﻿  Chapter5_task15.cpp
+c:\users\raynor\documents\github\opencvstudying\opencvstudy\opencv\chapter5_task15\chapter5_task15.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\raynor\documents\github\opencvstudying\opencvstudy\opencv\chapter5_task15\chapter5_task15.cpp(91): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+c:\users\raynor\documents\github\opencvstudying\opencvstudy\opencv\chapter5_task15\chapter5_task15.cpp(93): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+c:\users\raynor\documents\github\opencvstudying\opencvstudy\opencv\chapter5_task15\chapter5_task15.cpp(95): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+c:\users\raynor\documents\github\opencvstudying\opencvstudy\opencv\chapter5_task15\chapter5_task15.cpp(97): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+  Chapter5_task15.vcxproj -> C:\Users\Raynor\Documents\GitHub\openCVStudying\OpenCVStudy\openCV\x64\Debug\Chapter5_task15.exe

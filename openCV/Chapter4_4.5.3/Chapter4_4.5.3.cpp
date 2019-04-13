@@ -20,7 +20,7 @@ int main() {
 
 	double fps = 29.97;												//초당 프레임 수 
 	int	   delay = cvRound(1000.0 / fps);							//프레임간 지연시간 
-	Size   size(640,360);											//동영상 파일 해상도
+	Size   size(1920,1080);											//동영상 파일 해상도
 	int	   fourcc = VideoWriter::fourcc('D','X','5','0');			//압축 코덱 설정 
 
 	capture.set(CAP_PROP_FRAME_WIDTH, size.width);					//해상도 설정(저장 해상도 지정 ) 
@@ -32,7 +32,7 @@ int main() {
 	cout << "fps : " << fps				<< endl;
 
 	VideoWriter writer;												//동영상 파일 저장 객체 
-	writer.open("C:/Users/Raynor/Desktop/openCVEXImage/Ex_video4.avi",fourcc,fps,size); //파일 개방 및 설정 
+	writer.open("C:/Users/Raynor/Desktop/openCVEXImage/Sleep dongwook.avi",fourcc,fps,size); //파일 개방 및 설정 
 	CV_Assert(writer.isOpened());
 	
 	while (true) {

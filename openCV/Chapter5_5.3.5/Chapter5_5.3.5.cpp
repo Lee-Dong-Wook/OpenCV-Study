@@ -19,8 +19,8 @@ using namespace std;
 //bitwise_and(masks[0], masks[1], masks[3]);
 //다른 결과가 나온다. 
 int main() {
-	Mat image	= imread("C:/Users/Raynor/Desktop/openCVEXImage/big.jpg", IMREAD_COLOR);
-	Mat logo	= imread("C:/Users/Raynor/Desktop/openCVEXImage/opencv.png", IMREAD_COLOR);
+	Mat image	= imread("C:/Users/Raynor/Desktop/openCVEXImage/image2.jpg", IMREAD_COLOR);
+	Mat logo	= imread("C:/Users/Raynor/Desktop/openCVEXImage/opencvLogo.png", IMREAD_COLOR);
 	Mat logo_th, masks[5], background, foreground, dst;											
 	
 	CV_Assert(image.data && logo.data);															//예외 처리 
@@ -29,7 +29,9 @@ int main() {
 	//threshold()로 이진화 수행. THRESH_BINAR옵션은 기준값 70보다 작은 화소는 0으로 큰화소는 255로 만든다. 
 	//로고에서 빨,파,초,흰 요소 모두 흰색으로 배경 검은색은 검은색으로 
 	//logo를 입력하여 이진화 시켜 logo_th에 출력 
+	imshow("raw_image", image);
 	imshow("raw_logo", logo);
+	imshow("logo_th", logo_th);
 	split(logo_th, masks);																//logo_th행렬을 1채널 행렬, 3개를 갖는 배열로 분리
 
 	bitwise_or(masks[0], masks[1], masks[3]);													//전경 통과 마스크 //(입력, 입력, 출력) 	

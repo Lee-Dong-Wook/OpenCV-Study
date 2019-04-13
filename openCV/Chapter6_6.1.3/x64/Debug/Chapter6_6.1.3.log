@@ -1,0 +1,7 @@
+﻿  Chapter6_6.1.3.cpp
+c:\users\raynor\documents\github\opencvstudying\opencvstudy\opencv\chapter6_6.1.3\chapter6_6.1.3.cpp(57): warning C4244: '=': conversion from 'int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+  Chapter6_6.1.3.vcxproj -> C:\Users\Raynor\Documents\GitHub\openCVStudying\OpenCVStudy\openCV\x64\Debug\Chapter6_6.1.3.exe
